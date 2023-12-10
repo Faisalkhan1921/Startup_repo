@@ -81,16 +81,7 @@
                                     <div class="col-12">
                                         <div class="input-group">
                                             <div class="input-group-prepend">
-                                                {{-- <select class="custom-select form-control" id="countryCode" name="countryCode" required="" onchange="updatePlaceholder()">
-                                                    <option value="+1" selected>Canada (+1)</option>
-                                                    <!-- Add more options for other country codes as needed -->
-                                                    <option value="+44">(+44)</option>
-                                                    <option value="+91">(+91)</option>
-                                                    <!-- Add more options as needed -->
-                                                </select> --}}
-
-
-                                                <select class="custom-select form-control" id="countryCode" name="countryCode" required="" onchange="updatePlaceholder()">
+                                                 <select class="custom-select form-control" id="countryCode" name="countryCode" required="" onchange="updatePlaceholder()">
                                                     <option data-countryCode="CA" value="+1" selected>Canada (+1)</option>
                                                     <optgroup label="Other countries">
                                                         <option data-countryCode="PK" value="+92" placeholder="hi">Pakistan (+92)</option>
@@ -340,10 +331,7 @@
                                     </div>
                                 </div>
     
-                                <div class="form-group mt-2 mb-0 row">
-                                    <div class="col-12 mt-3 text-center">
-                                        <a href="{{url('/login')}}" class="text-muted">Already have account?</a>
-                                    </div>
+                            
                                 </div>
                             </form>
                             <!-- end form -->
